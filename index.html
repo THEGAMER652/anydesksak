@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="sv">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="refresh" content="0;url=https://anydesk.com/en/downloads/thank-you?dv=win_exe">
+    <title>Omdirigerar till AnyDesk...</title>
+    
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+            margin: 0;
+            background-color: #f4f4f4;
+            text-align: center;
+        }
+        .loader-container {
+            padding: 20px;
+            background: white;
+            border-radius: 8px;
+            box-shadow: 0 2px 10px rgba(0,0,0,0.1);
+        }
+        a {
+            color: #ef4444;
+            text-decoration: none;
+            font-weight: bold;
+        }
+    </style>
+</head>
+<body>
+
+    <div class="loader-container">
+        <h1>Omdirigerar...</h1>
+        <p>Nedladdningen av AnyDesk bör starta automatiskt.</p>
+        <p>Om inget händer inom några sekunder, <a id="manual-link" href="https://anydesk.com/en/downloads/thank-you?dv=win_exe">klicka här för att ladda ner manuellt</a>.</p>
+    </div>
+
+    <script type="text/javascript">
+        window.location.href = "https://anydesk.com/en/downloads/thank-you?dv=win_exe";
+    </script>
+
+</body>
+</html>
